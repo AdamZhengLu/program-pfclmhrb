@@ -1,8 +1,8 @@
-### About
+## About
 
 This is a repository for our `ParFlow-CLM-HRB 1.0` program.
 
-### Author
+## Author
 
  **Zheng Lu (Adam)**, a GW modeller & GISer & RSor.
 
