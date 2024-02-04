@@ -50,7 +50,7 @@
         <i class="fa fa-phone"></i> +86 135 20523 099
       </div>
       <div class="social-links float-right">
-        <a href="https://www.researchgate.net/profile/Zheng-Lu-17" class="researchgate"><i class="fa fa-researchgate"></i></a>
+        <a href="https://www.researchgate.net/profile/Zheng-Lu-17" class="researchgate"><i class="fa fa-researchgate-brands"></i></a>
         <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
         <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
         <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
@@ -75,7 +75,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#body">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
+          <li><a href="#frame">Services</a></li>
           <li><a href="#team">Team</a></li>
           <li><a href="#supports">Portfolio</a></li>
           <li class="menu-has-children"><a href="">work</a>
@@ -144,53 +144,56 @@
     </section><!-- #about -->
 
     <!--==========================
-      Services Section
+      Frame Section
     ============================-->
-    <section id="services">
+    <section id="frame">
       <div class="container">
         <div class="section-header">
-          <h2>Services</h2>
-          <p> XXXX </p>
+          <h2>Frame</h2>
+          <p>ParFlow-CLM以一种集成的方式（即全局隐式）求解三维可变饱和度地下水-地表水流动方程，并将其集成于包括辐射收支、土壤能量平衡、植物和积雪在内的陆面过程中。
+            地下部分，ParFlow基于三维地下水流动Richards方程求解饱和带-包气带的偏微分方程定解问题。通过van Genuchten方程描述了各水动力变量的关系，并利用高效稳定的Newton-Krylov非线性求解器进行矩阵求解；
+            地表部分则集成了CoLM，将CoLM作为核心模块，以“分布式”的方式（即ParFlow地下计算域顶部的每个x、y位置与对应的地表CoLM位置相重合）嵌入ParFlow中，ParFlow取代了CoLM中原有的土柱/根区计算方式，
+            而CoLM计算地表的水量和能量平衡。关于ParFlow-CLM更详细的求解处理方案和功能可参考（https://www.parflow.org/）</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <div class="icon"><i class="fa fa-computer"></i></div>
+              <h4 class="title"><a href="">底构</a></h4>
+              <p class="description">原始核心代码基于C/Fortran实现</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="fa fa-picture-o"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+              <div class="icon"><i class="fa fa-map"></i></div>
+              <h4 class="title"><a href="">外壳</a></h4>
+              <p class="description">可通过Python实现</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+              <div class="icon"><i class="fa fa-server"></i></div>
+              <h4 class="title"><a href="">并行</a></h4>
+              <p class="description">可在大型服务器上通过Tcl提交</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-map"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+              <h4 class="title"><a href="">用户</a></h4>
+              <p class="description">目前ParFlow-CLM用户正呈现指数增长</p>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- #services -->
+    </section><!-- #frame -->
 
     <!--==========================
       Our Team Section
