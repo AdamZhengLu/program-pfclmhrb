@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #C00000;
+  background: #50d8af;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #C00000;
+  background: #50d8af;
   color: #fff;
   outline: none;
 }
@@ -229,13 +229,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content .btn-projects {
-  background: #50d8af;
-  border: 2px solid #50d8af;
+  background: #ca6405;
+  border: 2px solid #ca6405;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #50d8af;
+  color: #ca6405;
 }
 
 #intro #intro-carousel {
@@ -349,7 +349,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #50d8af;
+  color: #0c2e8a;
 }
 
 .nav-menu > li {
@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #6950d8;
+  color: #0c2e8a;
 }
 
 .nav-menu ul ul {
@@ -464,11 +464,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #6950d8;
+  color: #0c2e8a;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #6950d8;
+  color: #0c2e8a;
 }
 
 #mobile-body-overly {
