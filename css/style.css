@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #50d8af;
+  color: #C00000;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #51d8af;
+  color: #C00000;
   outline: none;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #50d8af;
+  background: #C00000;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #50d8af;
+  background: #C00000;
   color: #fff;
   outline: none;
 }
