@@ -141,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a span {
-  color: #50d8af;
+  color: #C00000;
 }
 
 #header #logo img {
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 span {
-  color: #50d8af;
+  color: #C00000;
   text-decoration: underline;
 }
 
@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #50d8af;
+  color: #6950d8;
 }
 
 .nav-menu ul ul {
@@ -464,11 +464,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #50d8af;
+  color: #6950d8;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #50d8af;
+  color: #6950d8;
 }
 
 #mobile-body-overly {
@@ -519,7 +519,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #36263f;
   bottom: 0;
   left: 0;
 }
@@ -580,7 +580,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #C00000;
 }
 
 #about .content ul {
@@ -907,7 +907,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #36263f;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -953,7 +953,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #474948;
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -974,7 +974,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #50d8af;
+  color: #474948;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
