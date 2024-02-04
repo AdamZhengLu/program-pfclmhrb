@@ -156,7 +156,7 @@
       <div class="container">
         <div class="section-header">
           <h2>Services</h2>
-          <p>ParFlow-CLM以一种集成的方式（即全局隐式）求解三维可变饱和度地下水-地表水流动方程，并将其集成于包括辐射收支、土壤能量平衡、植物和积雪在内的陆面过程中。</p>
+          <p>ParFlow-CLM以一种集成的方式（即全局隐式）求解三维可变饱和度地下水-地表水流动方程，并将其集成于包括辐射收支、土壤能量平衡、植物和积雪在内的陆面过程中。 地下部分，ParFlow基于三维地下水流动Richards方程求解饱和带-包气带的偏微分方程定解问题。通过van Genuchten方程描述了各水动力变量的关系，并利用高效稳定的Newton-Krylov非线性求解器进行矩阵求解；地表部分则集成了CoLM，将CoLM作为核心模块，以“分布式”的方式嵌入ParFlow中，ParFlow取代了CoLM中原有的土柱/根区计算方式，而CoLM计算地表的水量和能量平衡。</p>
         </div>
 
         <div class="row">
