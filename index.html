@@ -557,9 +557,29 @@
         </div>
       </div>
 
+      <head>
+        <!-- ... -->
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/@waline/client@v3/dist/waline.css"/>
+        <!-- ... -->
+      </head>
+      <body>
+        <!-- ... -->
+        <div id="waline"></div>
+        <script type="module">
+          import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+          init({
+            el: '#waline',
+            serverURL: 'https://waline-blog-kd98fcmc7-adamzhenglu.vercel.app',
+          });
+        </script>
+      </body>
+
+
       <!-- <div id="google-map" data-latitude="39.968933" data-longitude="116.370142"></div> -->
 
-      <div class="container">
+      <!-- <div class="container">
         <div class="form">
           <div id="sendmessage">Your message has been sent. Thank you!</div>
           <div id="errormessage"></div>
@@ -585,8 +605,9 @@
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div>
+      </div> -->
 
-      </div>
+      
     </section><!-- #contact -->
 
   </main>
